@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "llama-testing-repo"
+version = "0.1.0"
+description = ""
+authors = ["YasmineMh <yasmine.mhiri96@gmail.com>"]
+readme = "README.md"
+packages = [{include = "llama_testing_repo"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+llama-index = "0.6.24"
+weaviate-client = "^3.19.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
